@@ -12,10 +12,10 @@ public class Banco {
 
     public static void main(String[] args) {
         ContaBancaria conta1 = new ContaPF("Gabriel", "087.774.421-13");
-        ContaBancaria conta2 = new ContaPJ("SaborRefri", "18.385.698/0001-00");
+        ContaBancaria conta2 = new ContaPJ("SaborRefri", "13.475.75/0001-00");
        
-       conta1.depositar(1500);
-       conta2.depositar(10000);
+       conta1.depositar(2000);
+       conta2.depositar(20000);
        
        conta1.extratoBancario();
        

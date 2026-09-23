@@ -24,7 +24,7 @@ public void setCnpj(String cnpj){
 this.cnpj = cnpj;
 }
 
-@Override
+
 public void extratoBancario(){
 System.out.println("CONTA PJ");
 System.out.println("Empresa: " + getTitular());
